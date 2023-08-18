@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+.name {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  height: 30px;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  bottom: 0px;
+  left: 0px;
+  transition: height 0.3s ease-in;
+  font-weight: 700;
+  font-size: 18px;
+  overflow: hidden;
+  p {
+    margin-bottom: 6px;
+  }
+  &:hover {
+    height: 145px;
+  }
+}
+.location {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  span {
+    margin-right: 5px;
+    font-weight: 500;
+  }
+}
